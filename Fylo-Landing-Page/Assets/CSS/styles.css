@@ -1,0 +1,659 @@
+font-face {
+    font-family: 'Raleway', sans-serif, 'Open Sans';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+/*///////////////header///////////////////////////////*/
+
+header {
+    display: flex;
+}
+
+header > div.hd-container {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+
+}
+
+header > div.hd-container > div.heading {
+    align-items: flex-start;
+    width: 50%;
+}
+
+header > div.hd-container > div.heading > a > img {
+    margin-top: 65px;
+    object-fit: cover;
+    width: min(200px, 100%);
+}
+
+header > div.hd-container > div.options {
+    width: 50%;
+    text-align: right;
+
+}
+
+header > div.hd-container > div.options > ul {
+    padding-top: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: right;
+    list-style: none;
+    gap: 80px;
+}
+header > div.hd-container > div.options > ul > li > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    line-height: 20px;
+    font-size: (1rem, 2.5vw, 2rem);
+   
+}
+
+/*//////////////////////////////page1//////////////  */
+
+div.main-container > div.container {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.main-container > div.container > div.introduction {
+    margin-top: 80px;
+    width: 50%;
+}
+
+div.main-container > div.container > div.introduction > h1, p {
+    text-align: left;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    padding-bottom: 25px;
+}
+
+div.main-container > div.container > div.introduction > h1 {
+    font-size: 45px;
+}
+
+div.main-container > div.container > div.introduction > p {
+    font-size: 19px;
+    width: 90%;
+    font-family: 'Open Sans';
+}
+
+div.main-container > div.container > div.introduction > div.input > input {
+
+    padding-block: 15px;
+    padding-inline: 200px;
+
+}
+
+div.main-container > div.container > div.introduction > div.input > button {
+
+    padding-block: 17px;
+    padding-inline: 60px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+div.main-container > div.container > div.introduction > div.input > button:hover{
+
+    
+    background-color: hsl(224, 95%, 67%);
+}
+
+div.main-container > div.container > div.introduction > div.input > button > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+div.main-container > div.container > div.pic{
+    width: 50%;
+}
+div.main-container > div.container > div.pic > img {
+
+    width: 100%
+}
+
+
+
+/*//////////////page2/////////////////////////////////*/
+
+div.main-container-2 {
+    display: flex;
+    background-color: #F8F8FE !important;
+}
+
+div.main-container-2 > div.container-2 {
+    width: 90%;
+    max-width: 1320px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-block: 100px;
+    background-color: #F8F8FE;
+
+
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 {
+    width: 50%;
+}
+
+img.container-2 {
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > h1, p {
+    text-align: left;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    padding-bottom: 25px;
+
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > h1 {
+    font-size: 45px;
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > p {
+    font-size: 19px;
+    width: 85%;
+    font-family: 'Open Sans';
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > a {
+    color: hsl(170, 45%, 43%);
+    font-size: 19px;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+div.main-container-2 > div.container-2 > div.introduction-2 > a:hover{
+    color: hsl(170, 67%, 60%);
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > a > img {
+    text-align: center;
+    justify-content: center;
+}
+
+div.main-container-2 > div.container-2 > div.pic2 {
+    width: 50%;
+}
+
+div.main-container-2 > div.container-2 > div.pic2 > img {
+    width: 100%;
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card {
+    background-color: white;
+    margin-top: 60px;
+    justify-content: left;
+    padding: 2rem;
+    width: 55%;
+    max-width: 350%;
+    /*height: 250px;*/
+    box-shadow: 1px 10px 10px 1px hsl(0, 11%, 93%);
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text {
+    /*height: 250px;*/
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > img {
+    /*margin-top: 40px;*/
+    /*margin-left: 35px;*/
+    width: 15px;
+    object-fit: contain;
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > p {
+    /*margin-top: 10px;*/
+    /*margin-left: 40px;*/
+    font-family: 'Open Sans';
+    width: 75%;
+    font-size: 15px;
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > div.profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /*height: 87px;*/
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > div.profile > div.image > img {
+    /*width: 50%;*/
+    max-width: 45px;
+    /*height: 40%;*/
+    border-radius: 50%;
+    /*margin-left: 40px;*/
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > div.profile > div.info > h5 {
+    font-family: 'Open Sans';
+    color: hsl(243, 87%, 12%);
+    width: 100%;
+    letter-spacing: 1px;
+    /*padding-top: 2px;*/
+    /*padding-left: 10px;*/
+    font-size: 12px;
+
+}
+
+div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > div.profile > div.info > p {
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'Open Sans';
+    color: hsl(243, 87%, 12%);
+    width: 100%;
+    /*padding-top: 2px;*/
+    /*padding-left: 10px;*/
+    padding-bottom: 0;
+}
+
+/*///////////////////////////part3//////////.*/
+div.main-container-3 {
+    background-color: hsl(238, 22%, 44%);
+}
+
+div.main-container-3 > div.container-3 {
+
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.main-container-3 > div.container-3 > div.text {
+
+    padding-block: 120px;
+
+    width: 50%;
+}
+
+div.main-container-3 > div.container-3 > div.text > h1 {
+    color: hsl(240, 75%, 98%)
+}
+
+div.main-container-3 > div.container-3 > div.text > p {
+    color: hsl(240, 75%, 98%);
+    padding-block: 20px;
+    font-size: 18px;
+    width: 68%;
+    font-family: 'Open Sans';
+}
+
+div.main-container-3 > div.container-3 > div.input-2 {
+    width: 50%;
+}
+
+div.main-container-3 > div.container-3 > div.input-2 > input {
+    width: 70%;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+}
+
+div.main-container-3 > div.container-3 > div.input-2 > button {
+    width: 30%;
+    height: 50px;
+
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+div.main-container-3 > div.container-3 > div.input-2 > button:hover{
+
+    
+    background-color: hsl(224, 95%, 67%);
+}
+div.main-container-3 > div.container-3 > div.input-2 > button > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*/////////////part4////////////////////////////////*/
+footer {
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+
+}
+
+footer > div.container-4 {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div.container-4 > div.logo {
+    width: 100%;
+    display: block;
+}
+
+footer > div.container-4 > div.logo > a > img {
+    margin-top: 140px;
+    object-fit: cover;
+    width: 12%;
+}
+
+footer > div.container-4 > div.information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    color: hsl(240, 75%, 98%);
+    font-size: 17px;
+
+}
+
+footer > div.container-4 > div.information > div.contact > ul {
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+footer > div.container-4 > div.information > div.contact > ul > li {
+    font-family: 'Open Sans';
+    padding-bottom: 20px;
+    
+}
+
+footer > div.container-4 > div.information > div.contact > ul > li > img {
+    padding-right: 20px;
+}
+
+footer > div.container-4 > div.information > div.contact > ul > li >a{
+    text-decoration: none;
+    color: white;
+}
+footer > div.container-4 > div.information > div.contact > ul > li >a:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+footer > div.container-4 > div.information > div.about > ul {
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+footer > div.container-4 > div.information > div.about > ul > li {
+    font-family: 'Open Sans';
+    padding-bottom: 20px;
+}
+
+footer > div.container-4 > div.information > div.about > ul > li > a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+footer > div.container-4 > div.information > div.about > ul > li > a:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+footer > div.container-4 > div.information > div.terms > ul {
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+footer > div.container-4 > div.information > div.terms > ul > li {
+    font-family: 'Open Sans';
+    padding-bottom: 20px;
+}
+
+footer > div.container-4 > div.information > div.terms > ul > li > a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+footer > div.container-4 > div.information > div.terms > ul > li > a:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+
+footer > div.container-4 > div.information > div.icons {
+    width: 170px;
+    display: block;
+}
+
+footer > div.container-4 > div.information > div.icons > a > i.fa-facebook, i.fa-instagram, i.fa-twitter {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    width: 23%;
+    text-align: center;
+    color: #ffffff ;
+}
+footer > div.container-4 > div.information > div.icons > a >  i.fa-twitter:hover{
+    color: hsl(224, 93%, 58%);
+}
+footer > div.container-4 > div.information > div.icons > a > i.fa-facebook:hover{
+    color: hsl(224, 93%, 58%);
+}
+footer > div.container-4 > div.information > div.icons > a >i.fa-instagram:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+
+
+/*///////////responsive/////////////////////////*/
+
+@media screen and (max-width: 768px) {
+
+    header > div.hd-container > div.heading >a {
+        display: flex;
+        width: 100%;
+        text-align: right;
+        justify-items: right;
+        padding-bottom: 40px;
+    }
+
+    header > div.hd-container > div.heading > a > img {
+        max-width: 100%;
+    }
+
+    header > div.hd-container > div.options {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+    }
+    header > div.hd-container > div.options > ul {
+        padding-top: 20px;
+        font-size: 16px;
+        gap: 2px;
+    }
+    header > div.hd-container > div.options > ul > li > a {
+        padding-left: 20px;
+    }
+    div.main-container > div.container > div.pic{
+        width: 100%;
+    }
+    div.main-container > div.container > div.introduction > h1, p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    div.main-container > div.container > div.introduction{
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    div.main-container > div.container > div.introduction> h1 {
+        font-size: 30px;
+    }
+
+    div.main-container> div.container > div.introduction> p {
+        font-size: 14px;
+        width: 85%;
+    }
+    div.main-container> div.container{
+        padding-bottom: 100px;
+    }
+    div.container {
+        display: flex;
+        width: max-content;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    div.main-container> div.container> div.introduction {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    div.main-container > div.container > div.introduction > div.input > button {
+        width: 100%;
+        padding-block: 12px;
+        max-width: 100%;
+    }
+    div.main-container > div.container > div.introduction > div.input > input {
+        width: 100%;
+        padding-inline: 80px;
+
+    }
+    div.main-container-2 > div.container-2{
+        display: flex;
+        width: max-content;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    div.main-container-2 > div.container-2 > div.pic2{
+        width: 80%;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2{
+        padding-top: 100px;
+        width: 100%;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > h1 {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    div.main-container-2 > div.container-2 > div.introduction-2 > p {
+        font-size: 15px;
+        width: 95%;
+        padding-inline: 10px;
+        text-align: center;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > a {
+        font-size: 15px;
+        text-align: center;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > div.card {
+    
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 80%;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > p{
+        width: 100%;
+    }
+    div.main-container-2 > div.container-2 > div.introduction-2 > div.card > div.text > div.profile {
+        display: flex;
+       align-items: center;
+       justify-content: start;
+    }
+    div.main-container-3 > div.container-3 {
+        width: 100%;
+        flex-direction: column;
+    }
+    div.main-container-3 > div.container-3 > div.text {
+        padding-block: 0;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.main-container-3 > div.container-3 > div.text > h1 {
+        font-size: 25px;
+    }
+    div.main-container-3 > div.container-3 > div.input-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    div.main-container-3 > div.container-3 > div.input-2 > button {
+        width: 70%;
+    }
+    footer > div.container-4 > div.logo > a > img {
+        margin-top: 80px;
+        width: 50%;
+    }
+    footer > div.container-4 > div.information {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 60px;
+        width: 100%;
+        font-size: 18px;
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    header > div.hd-container > div.options > ul {
+        padding-top: 20px;
+        font-size: 14px;
+        gap: 2px;
+    }
+}
+
+@media screen and (max-width: 358px){
+    header > div.hd-container > div.options > ul {
+        padding-top: 20px;
+        font-size: 12px;
+        gap: 1px;
+    }
+}
